@@ -1,0 +1,44 @@
+{
+  "name": "react-form-hbp",
+  "version": "1.0.1",
+  "description": "A simple form in react",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HabibullahFTL/react-form-hbp.git"
+  },
+  "keywords": [
+    "react",
+    "form"
+  ],
+  "author": "Habibullah Bahar Piash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HabibullahFTL/react-form-hbp/issues"
+  },
+  "homepage": "https://github.com/HabibullahFTL/react-form-hbp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "babel-loader": "^9.1.3",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.1.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
